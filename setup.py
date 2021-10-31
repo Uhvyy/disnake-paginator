@@ -13,6 +13,7 @@ setup(
     long_description = readme_data,
     long_description_content_type='text/markdown',
     author = 'Ryan Huang',
+    author_email = "ryan.error403@myself.com",
     url = 'https://github.com/ErrorNoInternet/disnake-paginator',
     download_url = 'https://github.com/ErrorNoInternet/disnake-paginator/archive/refs/tags/0.1.tar.gz',
     keywords = ["discord", "disnake", "paginator"],
