@@ -1,1 +1,4 @@
 __pycache__/*
+disnake_paginator/__pycache__/*
+disnake_paginator.egg-info/*
+dist/*
