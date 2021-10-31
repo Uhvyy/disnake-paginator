@@ -21,7 +21,7 @@ setup(
         "disnake",
     ],
     classifiers = [
-        'Development Status :: 5 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
