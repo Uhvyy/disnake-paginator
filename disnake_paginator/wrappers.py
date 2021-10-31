@@ -21,8 +21,11 @@ class ChannelResponseWrapper:
 
 class UserInteractionWrapper:
     def __init__(self, user):
+        self.name = "MessageInteractionWrapper"
+        self.id = user.id
         self.author = user
         self.guild = None
+        self.created_at = user.created_at
         if type(user) == disnake.Member:
             self.guild = user.guild
         self.response = ChannelResponseWrapper(user)
@@ -32,9 +35,12 @@ class UserInteractionWrapper:
 
 class MessageInteractionWrapper:
     def __init__(self, message):
+        self.name = "MessageInteractionWrapper"
+        self.id = message.id
         self.author = message.author
-        self.guild = message.guild
         self.channel = message.channel
+        self.created_at = message.created_at
+        self.guild = message.guild
         self.response = ChannelResponseWrapper(message.channel)
 
     async def edit_original_message(self, content=None, embed=None, view=None):

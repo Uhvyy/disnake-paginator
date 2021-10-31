@@ -28,7 +28,7 @@ async def aaa_command(inter):
 
 ## Arguments
 `title` = The title of the embed\
-`segments` = The pages for the paginator (supports `str` and `disnake.Embed`)\
+`segments` = The pages of the paginator (supports `str` and `disnake.Embed`)\
 `color` = The color of the embed\
 `prefix` = The prefix of every page in the embed\
 `suffix` = The suffix of every page in the embed\
