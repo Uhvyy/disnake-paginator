@@ -12,7 +12,7 @@ setuptools.setup(
     description = "This is a module that contains paginators for disnake",
     long_description = readme_data,
     long_description_content_type = 'text/markdown',
-    author = 'Ryan Huang',
+    author = "ErrorNoInternet",
     url = 'https://github.com/ErrorNoInternet/disnake-paginator',
     keywords = ["discord", "disnake", "paginator"],
     install_requires = [
