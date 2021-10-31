@@ -2,6 +2,7 @@ LICENSE
 README.md
 setup.cfg
 setup.py
+disnake_paginator/main.py
 disnake_paginator/paginators.py
 disnake_paginator/wrappers.py
 disnake_paginator.egg-info/PKG-INFO
