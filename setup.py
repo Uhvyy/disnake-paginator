@@ -1,10 +1,10 @@
-from distutils.core import setup
+import setuptools
 
 readme_file = open("README.md", "r")
 readme_data = readme_file.read()
 readme_file.close()
 
-setup(
+setuptools.setup(
     name = 'disnake_paginator',
     packages = ['disnake_paginator'],
     version = '0.2',
