@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-readme_file = open("README", "r")
+readme_file = open("README.md", "r")
 readme_data = readme_file.read()
 readme_file.close()
 
@@ -11,7 +11,7 @@ setup(
     license = 'MIT',
     description = "This is a module that contains paginators for disnake",
     long_description = readme_data,
-    long_description_content_type='text/markdown',
+    long_description_content_type = 'text/markdown',
     author = 'Ryan Huang',
     author_email = "ryan.error403@myself.com",
     url = 'https://github.com/ErrorNoInternet/disnake-paginator',
