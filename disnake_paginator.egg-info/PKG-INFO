@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: disnake-paginator
-Version: 0.2
+Version: 1.0.0
 Summary: This is a module that contains paginators for disnake
 Home-page: https://github.com/ErrorNoInternet/disnake-paginator
 Author: Ryan Huang
