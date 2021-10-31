@@ -3,8 +3,8 @@ import disnake
 class ButtonPaginator:
     def __init__(
             self,
-            title="",
             segments,
+            title="",
             color=0x000000,
             prefix="",
             suffix="",
