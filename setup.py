@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-readme_file = open("README.md", "r")
+readme_file = open("README", "r")
 readme_data = readme_file.read()
 readme_file.close()
 
