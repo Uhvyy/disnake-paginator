@@ -7,7 +7,7 @@ readme_file.close()
 setup(
     name = 'disnake_paginator',
     packages = ['disnake_paginator'],
-    version = '0.1',
+    version = '0.2',
     license = 'MIT',
     description = "This is a module that contains paginators for disnake",
     long_description = readme_data,

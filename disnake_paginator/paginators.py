@@ -20,7 +20,7 @@ class ButtonPaginator:
         self.invalid_user_text = invalid_user_text
 
         for segment in segments:
-            if type(segment) == disnake.Embed:
+            if isinstance(segment, disnake.Embed):
                 self.embeds.append(segment)
             else:
                 self.embeds.append(
