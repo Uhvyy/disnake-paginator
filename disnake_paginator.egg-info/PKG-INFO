@@ -1,9 +1,9 @@
 Metadata-Version: 2.1
 Name: disnake-paginator
-Version: 1.0.2
+Version: 1.0.3
 Summary: This is a module that contains paginators for disnake
 Home-page: https://github.com/ErrorNoInternet/disnake-paginator
-Author: Ryan Huang
+Author: ErrorNoInternet
 License: MIT
 Keywords: discord,disnake,paginator
 Platform: UNKNOWN
@@ -53,7 +53,7 @@ async def aaa_command(inter):
 `target_page` = The page that the paginator will display when created\
 `timeout` = The amount of seconds after the paginator will stop working\
 `button_style` = The style of the buttons on the paginator\
-`invalid_user_text` = The message that will be shown when someone else tries to use the paginator\
+`invalid_user_text` = The message that will be shown when someone else tries to use the paginator
 
 
 
