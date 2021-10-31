@@ -7,7 +7,7 @@ readme_file.close()
 setuptools.setup(
     name = 'disnake_paginator',
     packages = ['disnake_paginator'],
-    version = '0.2',
+    version = '1.0.0',
     license = 'MIT',
     description = "This is a module that contains paginators for disnake",
     long_description = readme_data,
@@ -15,7 +15,6 @@ setuptools.setup(
     author = 'Ryan Huang',
     author_email = "ryan.error403@myself.com",
     url = 'https://github.com/ErrorNoInternet/disnake-paginator',
-    download_url = 'https://github.com/ErrorNoInternet/disnake-paginator/archive/refs/tags/0.1.tar.gz',
     keywords = ["discord", "disnake", "paginator"],
     install_requires = [
         "disnake",

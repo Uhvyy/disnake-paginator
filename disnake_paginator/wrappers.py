@@ -6,7 +6,7 @@ class ChannelResponseWrapper:
         self.sent_message = None
 
     async def defer(self, ephemeral=False):
-        self.sent_message = await self.channel.send("Doge Utilities is thinking...")
+        self.sent_message = await self.channel.send("I am thinking...")
     
     async def send_message(self, content=None, embed=None, view=None, ephemeral=False):
         self.sent_message = await self.channel.send(content=content, embed=embed, view=view)
