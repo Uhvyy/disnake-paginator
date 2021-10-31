@@ -22,7 +22,7 @@ async def on_message(message):
 `split` function
 ```py
 async def aaa_command(inter):
-	paginator = disnake_paginator.ButtonPaginator(title="aaa", segments=disnake_paginator.split("a"*6969, 1000), target_page=2)
+	paginator = disnake_paginator.ButtonPaginator(title="aaa", segments=disnake_paginator.split("a"*6969, 1000), target_page=4)
 	await paginator.start(inter)
 ```
 

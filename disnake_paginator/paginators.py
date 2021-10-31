@@ -28,7 +28,7 @@ class ButtonPaginator:
                         title=title,
                         color=color,
                         description=prefix + segment + suffix,
-                    )
+                    ),
                 )
 
         if self.current_page > len(segments) or self.current_page < 1:
