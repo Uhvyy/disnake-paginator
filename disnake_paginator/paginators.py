@@ -1,6 +1,6 @@
 import disnake
 
-def dummy_response(interaction):
+async def dummy_response(interaction):
     await interaction.response.send_message("You are not the sender of that command!", ephemeral=True)
 
 class ButtonPaginator:
