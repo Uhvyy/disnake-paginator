@@ -37,4 +37,4 @@ async def aaa_command(inter):
 `button_style` = The style of the buttons on the paginator\
 `invalid_user_text` = The function that will be called when another user tries to use the paginator
 
-<sub>If you would like to modify this repository (including all of its code) in your own project, please be sure to credit!</sub>
+<sub>If you would like to modify this repository (including its code) in your own project, please be sure to credit!</sub>
