@@ -40,5 +40,6 @@ async def aaa_command(inter):
 `target_page` = The page that the paginator will display when created\
 `timeout` = The amount of seconds after the paginator will stop working\
 `button_style` = The style of the buttons on the paginator\
-`invalid_user_text` = The message that will be shown when someone else tries to use the paginator
+`invalid_user_text` = The function that will be called when another user tries to use the paginator
 
+<sub>If you would like to modify this repository (including its code) in your own project, please be sure to credit!</sub>
