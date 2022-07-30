@@ -1,7 +1,7 @@
 # disnake-paginator
 A module containing paginators for disnake
 
-## Usage
+## Installation
 ```
 pip install disnake-paginator
 ```
