@@ -53,7 +53,7 @@ class ButtonPaginator:
             def update_page(this):
                 for button in this.children:
                     if button.label:
-                        if button.label.strip() != "<<" and button.label.strip() != "<" and button.label.strip() != ">" button.label.strip() != ">>":
+                        if button.label.strip() != "<<" and button.label.strip() != "<" and button.label.strip() != ">" and button.label.strip() != ">>":
                             button.label = f"{self.current_page}/{len(self.embeds)}"
 
             @disnake.ui.button(emoji="<<", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
