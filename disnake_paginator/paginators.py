@@ -53,10 +53,10 @@ class ButtonPaginator:
             def update_page(this):
                 for button in this.children:
                     if button.label:
-                        if button.label.strip() != "":
+                        if button.label.strip() != "<<" and button.label.strip() != "<" and button.label.strip() != ">" button.label.strip() != ">>":
                             button.label = f"{self.current_page}/{len(self.embeds)}"
 
-            @disnake.ui.button(emoji="⏪", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
+            @disnake.ui.button(emoji="<<", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
             async def first_button(this, _, button_interaction):
                 if button_interaction.author != this.interaction.author:
                     await self.invalid_user_function(button_interaction)
@@ -73,7 +73,7 @@ class ButtonPaginator:
                 this.update_page()
                 await button_interaction.response.edit_message(embed=self.embeds[self.current_page-1], view=this)
 
-            @disnake.ui.button(emoji="◀️", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
+            @disnake.ui.button(emoji="<", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
             async def previous_button(this, _, button_interaction):
                 if button_interaction.author != this.interaction.author:
                     await self.invalid_user_function(button_interaction)
@@ -89,7 +89,7 @@ class ButtonPaginator:
             async def page_button(*_):
                 pass
 
-            @disnake.ui.button(emoji="▶️", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
+            @disnake.ui.button(emoji=">", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
             async def next_button(this, _, button_interaction):
                 if button_interaction.author != this.interaction.author:
                     await self.invalid_user_function(button_interaction)
@@ -101,7 +101,7 @@ class ButtonPaginator:
                 this.update_page()
                 await button_interaction.response.edit_message(embed=self.embeds[self.current_page-1], view=this)
 
-            @disnake.ui.button(emoji="⏩", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
+            @disnake.ui.button(emoji=">>", style=self.button_style, disabled=True if len(self.embeds) == 1 else False)
             async def last_button(this, _, button_interaction):
                 if button_interaction.author != this.interaction.author:
                     await self.invalid_user_function(button_interaction)
